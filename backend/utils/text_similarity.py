@@ -3,7 +3,7 @@ import os
 import openai , numpy as np
 from openai.embeddings_utils import get_embedding, cosine_similarity
 
-apikey = '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'
+apikey = os.getenv('OPENAI_API_KEY')
 openai.api_key = apikey
 
 
@@ -15,14 +15,14 @@ block_words = ['fuck' ,'bastard' ,'asshole' ,'son of a bitch' ,'bloody hell' ,'d
 ,'pussy','You saved my ass','dickhole' ]
 
 
-def checkSimilar(word):
-   Ex = get_embedding(word)
-   ans =0
-   for x in block_words:
-     embed = get_embedding(x)
-     ans = max(ans , cosine_similarity(Ex ,embed)) 
-     print(ans)
-   return ans >0.84
+# def checkSimilar(word):
+#    Ex = get_embedding(word)
+#    ans =0
+#    for x in block_words:
+#      embed = get_embedding(x)
+#      ans = max(ans , cosine_similarity(Ex ,embed)) 
+#      print(ans)
+#    return ans >0.84
 
 
 block_words_embed =[]

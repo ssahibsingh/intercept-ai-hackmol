@@ -1,4 +1,3 @@
-import transformers
 import tensorflow as tf
 from transformers import TFAutoModel , AutoTokenizer
 # model = tf.keras.models.load_model(, custom_objects={"TFBertModel": transformers.TFBertModel})
