@@ -1,38 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Intercept AI
 
-First, run the development server:
+Introducing our revolutionary content filtering solution, the ultimate tool to protect your online experience. Our state-of-the-art product is designed to remove all types of inappropriate content that you may come across on the internet.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Say goodbye to hate messages, multilingual Indian abusive words, violent messages, adult images, violent images that might otherwise make your browsing experience uncomfortable or distressing.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Our cutting-edge technology ensures that you can explore the vast online world with complete peace of mind, knowing that you are shielded from harmful content. Our product is not only efficient and effective but also customizable, allowing you to tailor your content filtering to your specific needs.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+With our solution, you'll enjoy a safe, secure, and enjoyable online experience, free from the distractions and dangers of inappropriate content. So why wait? Try our advanced filtering solution today and start exploring the online world with confidence!
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Some of the features provided by our product:
 
-## Learn More
+- Specific Word Restriction
+- Adult Content Detection
+- Violence Detection
+- Multilingual Indian Abusive Text Detection
+- Toxic English Content Detection 
 
-To learn more about Next.js, take a look at the following resources:
+## Demo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We have implemented our product under 2 use cases, that are:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+|Usecase |Model Implemented |Place of Implementation|
+|--- | --- | --- |
+|Twitter| Adult and Violence Image Detector|Posts|
+| | English Toxic Content Detector |Tweets|
+|YouTube|Multilingual Indian Abusive Content Detector|Live Stream Chat|
+||Specfic Word Restriction|Live Stream Chat|
+      
+Other Usecase:
+- YouTube Thumbnails
+- Ed-Tech Platforms
+- Facebook/Instagram Posts
+- Online Meets GMeet/ Teams
+- Blogging Websites
+& many more...
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Web Development
+
+- Next.js
+- MongoDB
+- Flask
+
+Deep learning
+- Tensorflow
+- Natural Language Processing (NLP)
+- Transformers, BERT
+
+
+
+
+
+## Feedback
+
+If you have any feedback, please reach out to me [here](https://ssahibsingh.github.io/#contact)
