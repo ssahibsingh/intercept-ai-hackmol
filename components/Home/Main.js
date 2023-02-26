@@ -213,8 +213,8 @@ const Home = () => {
                   type="submit"
                   className={
                     error
-                      ? "btn btn-dark rounded-pill disabled"
-                      : "btn btn-dark rounded-pill"
+                      ? "btn btn-primary rounded-pill disabled"
+                      : "btn btn-primary rounded-pill"
                   }
                 >
                   Tweet
@@ -333,8 +333,8 @@ const Home = () => {
               <button
                 className={
                   file
-                    ? "btn btn-dark rounded-pill"
-                    : "btn btn-dark rounded-pill disabled"
+                    ? "btn btn-primary rounded-pill"
+                    : "btn btn-primary rounded-pill disabled"
                 }
                 onClick={handleUpload}
               >

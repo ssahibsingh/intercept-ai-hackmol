@@ -51,7 +51,7 @@ const Sidebar = () => {
       <div className="min-vh-100">
         <div className="d-flex flex-column justify-content-between sidebar">
           <div className="links pt-5">
-            <div className="logo"></div>
+            <div className="logo text-primary text-center"><h2>Twitter</h2></div>
             <ul className="list-unstyled">
             {sidebar && sidebar.map((item)=>{
                 return(

@@ -38,3 +38,10 @@
 .tweet:hover{
     background: var(--hover-bg);
 }
+
+.live-chat{
+    background: #dddddd;
+}
+.live-chat hr{
+    /* background: #000 ; */
+}

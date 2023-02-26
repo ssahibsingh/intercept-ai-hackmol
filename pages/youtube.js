@@ -10,16 +10,11 @@ const Youtube = () => {
   const [messages, setMessages] = useState([
     {
       id: 1,
-      message: "Hello",
+      message: "Welcome to Hackmol 4.0",
     },
     {
       id: 2,
-      message: "Hello",
-    },
-    {
-      id: 3,
-      message:
-        "Hello lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      message: "Team Alpha-BERT",
     },
   ]);
 
@@ -52,8 +47,8 @@ const Youtube = () => {
             ...messages,
             { id: messages.length + 1, message: values.message },
           ]);
-        }else{
-            // alert("Blocked Words Detected")
+        } else {
+          // alert("Blocked Words Detected")
         }
       }
     });
@@ -79,16 +74,19 @@ const Youtube = () => {
                 allowFullScreen
               ></iframe>
             </div>
-            <div className="col-md-3 col-6 border rounded">
+            <div className="col-md-3 col-6 border rounded live-chat">
               <div className="d-flex align-items-end h-100">
                 <div className="w-100">
                   <ul className="list-unstyled py-2">
                     {messages &&
                       messages.map((item) => {
                         return (
-                          <li key={item.id} className="border-top px-3 my-2">
-                            {item.message}
-                          </li>
+                          <>
+                            <hr/>
+                            <li key={item.id} className=" px-3 my-2">
+                              {item.message}
+                            </li>
+                          </>
                         );
                       })}
                   </ul>
@@ -102,12 +100,12 @@ const Youtube = () => {
                         <Field
                           type="text"
                           name="message"
-                          className="form-control w-75"
+                          className="form-control w-75 rounded-pill"
                           id="message"
                           aria-describedby="emailHelp"
                           placeholder="Enter Message"
                         />
-                        <button type="submit" className="btn btn-dark">
+                        <button type="submit" className="btn btn-danger rounded-pill">
                           Send
                         </button>
                       </Form>

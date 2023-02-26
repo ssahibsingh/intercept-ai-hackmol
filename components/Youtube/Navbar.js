@@ -1,15 +1,15 @@
 import React from 'react'
 import { HiMenu } from 'react-icons/hi'
-
+import {BsSearch} from 'react-icons/bs'
 const Navbar = () => {
     return (
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
                     <HiMenu className="fs-3 mx-2" />
-                    <a className="navbar-brand" href="#">
+                    <p className="navbar-brand text-danger fs-3 m-0 p-0">
                         Youtube
-                    </a>
+                    </p>
                     <button
                         className="navbar-toggler"
                         type="button"
@@ -31,10 +31,10 @@ const Navbar = () => {
                                     aria-label="Search"
                                 />
                                 <button
-                                    className="btn btn-outline-success rounded-pill"
+                                    className="btn btn-outline-secondary rounded-pill"
                                     type="submit"
                                 >
-                                    Search
+                                    <BsSearch/>
                                 </button>
                             </form>
                         </div>
