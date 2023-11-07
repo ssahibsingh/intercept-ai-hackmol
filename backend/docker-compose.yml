@@ -1,0 +1,8 @@
+version: '3'
+services:
+  backend:
+    image: intercept-backend
+    ports:
+      - '5000:5000'
+    expose:
+      - '5000'

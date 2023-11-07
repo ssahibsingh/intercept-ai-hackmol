@@ -9,8 +9,8 @@ __pycache__/
 *$py.class
 
 
-./models
-models
+# ./models
+# models
 
 # C extensions
 *.so

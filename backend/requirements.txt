@@ -1,1 +1,16 @@
 Flask==2.2.2
+Flask-Cors==4.0.0
+Flask-PyMongo==2.3.0
+gunicorn==21.2.0
+numpy==1.26.1
+pandas==2.1.2
+python-dotenv==1.0.0
+sentence-transformers==2.2.2
+tensorboard==2.14.1
+tensorboard-data-server==0.7.2
+tensorflow==2.14.0
+tokenizers==0.14.1
+transformers==4.35.0
+virtualenv==20.23.1
+waitress==2.1.2
+Werkzeug==2.2.2

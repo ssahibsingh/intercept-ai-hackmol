@@ -1,0 +1,58 @@
+# Files and directories to ignore when building Docker image
+
+# Version control system files
+.git
+.gitignore
+
+# Python bytecode and cache files
+*.pyc
+__pycache__
+
+# IDE-specific files and directories (e.g., for VSCode)
+.vscode
+
+# Environment-specific files (e.g., for virtual environments)
+venv
+*.env
+
+# Log files
+logs
+
+# Test or development data
+data
+tests
+
+# Documentation
+docs
+
+# Project configuration files (e.g., .editorconfig, .flake8)
+.editorconfig
+.flake8
+
+# Jupyter Notebook files
+*.ipynb
+
+# Docker-related files
+Dockerfile
+.dockerignore
+
+# Docker Compose files
+docker-compose.yml
+docker-compose.override.yml
+
+# Other development or temporary files
+*.log
+*.swp
+*.swo
+
+# Editor backup files
+*~
+
+# Database files (SQLite, etc.)
+*.db
+
+# Miscellaneous
+LICENSE
+*.md
+.vscode
+vercel.json
